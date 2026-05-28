@@ -1,0 +1,348 @@
+.hero {
+
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  padding-top: 140px;
+  padding-bottom: 100px;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(139, 92, 246, 0.08),
+      transparent 35%
+    ),
+    var(--bg);
+}
+
+.hero-content {
+
+  width: 90%;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: 1.1fr 0.9fr;
+
+  align-items: center;
+
+  gap: 6rem;
+}
+
+.hero-text {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.hero-tag {
+
+  font-size: 1.05rem;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+
+  color: var(--text);
+
+  opacity: 0.72;
+}
+
+.hero-text h1 {
+
+  font-size: clamp(3rem, 5.5vw, 4.6rem);
+
+  line-height: 0.95;
+
+  font-weight: 800;
+
+  letter-spacing: -4px;
+
+  color: var(--text);
+
+  max-width: 720px;
+}
+
+.hero-text h1 span {
+
+  color: var(--purple);
+}
+
+.hero-description {
+
+  font-size: 1.18rem;
+
+  line-height: 1.8;
+
+  color: var(--secondary);
+
+  max-width: 620px;
+}
+
+.hero-buttons {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  margin-top: 0.5rem;
+}
+
+.primary-btn,
+.secondary-btn {
+
+  padding: 1rem 2rem;
+
+  border-radius: 18px;
+
+  font-weight: 700;
+
+  font-size: 1rem;
+
+  transition: 0.2s ease;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.primary-btn {
+
+  background: var(--purple);
+
+  color: white;
+
+  border: 1px solid transparent;
+}
+
+.primary-btn:hover {
+
+  background: var(--purple-hover);
+
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+
+  background: white;
+
+  color: var(--text);
+
+  border: 1px solid rgba(30, 30, 47, 0.12);
+}
+
+.secondary-btn:hover {
+
+  border-color: rgba(139, 92, 246, 0.3);
+
+  color: var(--purple);
+}
+
+.hero-visual {
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  transform: translateY(-20px);
+}
+
+.visual-glow {
+
+  position: absolute;
+
+  width: 320px;
+  height: 320px;
+
+  background: rgba(139, 92, 246, 0.14);
+
+  filter: blur(90px);
+
+  border-radius: 50%;
+
+  z-index: 0;
+
+  animation: pulseGlow 7s ease-in-out infinite;
+}
+
+.skills-card {
+
+  position: relative;
+
+  z-index: 1;
+
+  width: 100%;
+
+  max-width: 470px;
+
+  padding: 2.5rem;
+
+  border-radius: 32px;
+
+  background: rgba(255, 255, 255, 0.75);
+
+  backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(30, 30, 47, 0.1);
+
+  box-shadow:
+    0 20px 50px rgba(15, 23, 42, 0.06),
+    0 10px 30px rgba(139, 92, 246, 0.08);
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+  animation: floatCard 6s ease-in-out infinite;
+}
+
+.skill-pill {
+
+  padding: 1rem 1.4rem;
+
+  border-radius: 999px;
+
+  background: rgba(139, 92, 246, 0.08);
+
+  border: 1px solid rgba(139, 92, 246, 0.12);
+
+  color: var(--text);
+
+  font-size: 0.96rem;
+
+  font-weight: 600;
+
+  transition: 0.2s ease;
+}
+
+.skill-pill:hover {
+
+  transform: translateY(-2px);
+
+  background: rgba(139, 92, 246, 0.12);
+}
+
+@keyframes floatCard {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulseGlow {
+
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(1.08);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 980px) {
+
+  .hero {
+
+    text-align: center;
+  }
+
+  .hero-content {
+
+    grid-template-columns: 1fr;
+
+    gap: 4rem;
+  }
+
+  .hero-text {
+
+    align-items: center;
+  }
+
+  .hero-buttons {
+
+    justify-content: center;
+  }
+
+  .skills-card {
+
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+
+    font-size: clamp(2.8rem, 11vw, 4.2rem);
+  }
+
+  .hero-visual {
+
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+
+  .hero {
+
+    padding-top: 110px;
+  }
+
+  .hero-buttons {
+
+    width: 100%;
+
+    flex-direction: column;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+
+    width: 100%;
+  }
+
+  .hero-description {
+
+    font-size: 1rem;
+  }
+
+  .skills-card {
+
+    padding: 2rem;
+  }
+}
