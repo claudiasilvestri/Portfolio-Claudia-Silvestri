@@ -17,12 +17,12 @@ function Services() {
           </p>
 
           <h2 className="section-title">
-            Frontend, presenza digitale
+            Front-End, presenza digitale
             e prodotti web.
           </h2>
 
           <p className="section-text">
-            Supporto frontend e digitale per
+            Supporto front-end e digitale per
             professionisti, attività e prodotti online.
           </p>
 
@@ -52,13 +52,13 @@ function Services() {
           <article className="service-card featured-card">
 
             <h3>
-              Frontend &
+              Front-End &
               Prodotti Digitali
             </h3>
 
             <p>
               Sviluppo e ridefinizione di
-              interfacce frontend responsive
+              interfacce front-end responsive
               per dashboard, piattaforme web
               e prodotti digitali. Supporto
               sia nella creazione da zero che

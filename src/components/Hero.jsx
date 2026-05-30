@@ -9,7 +9,7 @@ function Hero() {
         <div className="hero-text">
 
           <div className="hero-tag">
-            FRONTEND DEVELOPER & CREATIVE BUILDER
+            FRONT-END DEVELOPER & CREATIVE BUILDER
           </div>
 
           <h1>
@@ -19,7 +19,7 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-            Frontend, branding e identità digitali
+            Front-end, branding e identità digitali
             per progetti moderni e riconoscibili.
           </p>
 
@@ -49,7 +49,7 @@ function Hero() {
 
           <div className="skills-card">
 
-            <span className="skill-pill">Frontend</span>
+            <span className="skill-pill">Front-End</span>
 
             <span className="skill-pill">React</span>
 

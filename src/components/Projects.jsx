@@ -7,11 +7,8 @@ import lawfirmImg from "../screen-projects/lawfirm.png";
 function Projects() {
   return (
     <section className="projects-section" id="projects">
-
       <div className="container">
-
         <div className="projects-header">
-
           <p className="section-label">
             PROGETTI
           </p>
@@ -22,18 +19,14 @@ function Projects() {
           </h2>
 
           <p className="section-text">
-            Interfacce frontend, prodotti web e identità digitali
+            Interfacce front-end, prodotti web e identità digitali
             progettate per essere moderne, responsive e riconoscibili.
           </p>
-
         </div>
 
         <div className="projects-wrapper">
-
           <article className="project-card">
-
             <div className="project-content">
-
               <p className="project-category">
                 PRODUCT PLATFORM
               </p>
@@ -43,57 +36,47 @@ function Projects() {
               </h3>
 
               <p>
-                Piattaforma sviluppata per rendere
+                Piattaforma in produzione ideata per rendere
                 la valutazione tecnica dei developer
                 più pratica, meritocratica e vicina
-                alle richieste reali del mercato tech.
+                alle esigenze reali del mercato tech.
+
                 Il progetto unisce challenge realistiche,
-                matching basato sulle skill e una
-                struttura frontend pensata per essere
-                chiara, leggibile e intuitiva.
+                matching tra aziende e candidati basato
+                sulle competenze e una struttura front-end
+                progettata per essere chiara, leggibile
+                e intuitiva.
               </p>
 
               <div className="project-tags">
-
-                <span>Frontend</span>
-
+                <span>Front-End</span>
                 <span>UX</span>
-
                 <span>Product Thinking</span>
-
               </div>
 
               <div className="project-buttons">
-
                 <a
-                  href="https://github.com/claudiasilvestri"
+                  href="https://github.com/claudiasilvestri/CoreStack"
                   target="_blank"
                   rel="noreferrer"
                   className="project-btn"
                 >
                   GitHub
                 </a>
-
               </div>
-
             </div>
 
             <div className="project-image-wrapper">
-
               <img
                 src={corestackImg}
                 alt="CoreStack project"
                 className="project-image"
               />
-
             </div>
-
           </article>
 
           <article className="project-card">
-
             <div className="project-content">
-
               <p className="project-category">
                 WEB APPLICATION
               </p>
@@ -112,17 +95,12 @@ function Projects() {
               </p>
 
               <div className="project-tags">
-
                 <span>API Integration</span>
-
                 <span>Responsive UI</span>
-
                 <span>State Management</span>
-
               </div>
 
               <div className="project-buttons">
-
                 <a
                   href="https://gameverse-live.vercel.app/"
                   target="_blank"
@@ -140,27 +118,20 @@ function Projects() {
                 >
                   GitHub
                 </a>
-
               </div>
-
             </div>
 
             <div className="project-image-wrapper">
-
               <img
                 src={gameverseImg}
                 alt="GameVerse project"
                 className="project-image"
               />
-
             </div>
-
           </article>
 
           <article className="project-card">
-
             <div className="project-content">
-
               <p className="project-category">
                 PROFESSIONAL WEBSITE
               </p>
@@ -180,17 +151,12 @@ function Projects() {
               </p>
 
               <div className="project-tags">
-
                 <span>Personal Branding</span>
-
                 <span>SEO</span>
-
                 <span>Responsive Design</span>
-
               </div>
 
               <div className="project-buttons">
-
                 <a
                   href="https://www.federicadalessandroavvocato.it/"
                   target="_blank"
@@ -199,27 +165,19 @@ function Projects() {
                 >
                   Visita il sito
                 </a>
-
               </div>
-
             </div>
 
             <div className="project-image-wrapper">
-
               <img
                 src={lawfirmImg}
                 alt="Studio legale project"
                 className="project-image"
               />
-
             </div>
-
           </article>
-
         </div>
-
       </div>
-
     </section>
   );
 }

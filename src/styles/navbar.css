@@ -10,11 +10,11 @@
 
   z-index: 1000;
 
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.85);
 
   backdrop-filter: blur(20px);
 
-  border-bottom: 1px solid rgba(30, 30, 47, 0.12);
+  border-bottom: 1px solid rgba(30, 30, 47, 0.08);
 
   box-shadow:
     0 4px 24px rgba(15, 23, 42, 0.04);
@@ -30,7 +30,7 @@
 
   margin: auto;
 
-  padding: 1.45rem 0;
+  padding: 1.4rem 0;
 
   display: flex;
 
@@ -76,7 +76,7 @@
 
   color: var(--text);
 
-  transition: 0.2s ease;
+  transition: 0.25s ease;
 }
 
 .nav-links a::after {
@@ -110,44 +110,164 @@
   width: 100%;
 }
 
+.hamburger {
+
+  display: none;
+
+  background: none;
+
+  border: none;
+
+  color: var(--text);
+
+  font-size: 2.2rem;
+
+  font-weight: 300;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.hamburger:hover {
+
+  color: var(--purple);
+
+  transform: scale(1.05);
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+
+  .logo {
+
+    font-size: 2rem;
+  }
+
+  .nav-links {
+
+    gap: 1.8rem;
+  }
+}
+
+/* Mobile */
+
 @media (max-width: 768px) {
 
   .nav-content {
 
-    padding: 1.15rem 0;
+    padding: 1.1rem 0;
   }
 
   .logo {
 
-    font-size: 1.9rem;
+    font-size: 1.8rem;
+  }
+
+  .hamburger {
+
+    display: block;
+
+    z-index: 1002;
   }
 
   .nav-links {
 
-    gap: 1.4rem;
+    position: absolute;
+
+    top: calc(100% + 12px);
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: calc(100% - 32px);
+
+    max-width: 500px;
+
+    background: rgba(255, 255, 255, 0.96);
+
+    backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(30, 30, 47, 0.08);
+
+    border-radius: 24px;
+
+    box-shadow:
+      0 20px 40px rgba(15, 23, 42, 0.08);
+
+    padding: 2rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 1.8rem;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    pointer-events: none;
+
+    transition: 0.25s ease;
+  }
+
+  .nav-links.active {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    pointer-events: all;
   }
 
   .nav-links a {
 
-    font-size: 0.95rem;
+    font-size: 1.25rem;
+
+    font-weight: 700;
+  }
+
+  .nav-links a::after {
+
+    display: none;
+  }
+
+  .nav-links a:hover {
+
+    color: var(--purple);
+
+    transform: translateY(-1px);
   }
 }
 
-@media (max-width: 560px) {
+/* Smartphone piccoli */
 
-  .nav-content {
+@media (max-width: 480px) {
 
-    flex-direction: column;
+  .logo {
 
-    gap: 1rem;
+    font-size: 1.55rem;
+  }
+
+  .hamburger {
+
+    font-size: 2rem;
   }
 
   .nav-links {
 
-    gap: 1.2rem;
+    width: calc(100% - 24px);
 
-    flex-wrap: wrap;
+    padding: 1.75rem;
+  }
 
-    justify-content: center;
+  .nav-links a {
+
+    font-size: 1.15rem;
   }
 }
