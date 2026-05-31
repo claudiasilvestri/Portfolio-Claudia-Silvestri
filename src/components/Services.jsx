@@ -2,12 +2,10 @@ import "../styles/services.css";
 
 function Services() {
   return (
-
     <section
       className="services-section"
       id="services"
     >
-
       <div className="container">
 
         <div className="services-header">
@@ -18,7 +16,7 @@ function Services() {
 
           <h2 className="section-title">
             Front-End, presenza digitale
-            e prodotti web.
+            e prodotti digitali.
           </h2>
 
           <p className="section-text">
@@ -33,17 +31,17 @@ function Services() {
           <article className="service-card">
 
             <h3>
-              Landing Page &
+              Siti Web &
               Presenza Online
             </h3>
 
             <p>
               Siti professionali e landing page
-              responsive progettati per costruire
-              una presenza digitale chiara,
-              credibile e orientata alla visibilità.
+              responsive progettati per comunicare
+              in modo chiaro e valorizzare attività,
+              professionisti e progetti online.
               Supporto anche nella struttura
-              dei contenuti e nell’organizzazione
+              dei contenuti e nell'organizzazione
               della comunicazione web.
             </p>
 
@@ -57,13 +55,13 @@ function Services() {
             </h3>
 
             <p>
-              Sviluppo e ridefinizione di
+              Sviluppo e miglioramento di
               interfacce front-end responsive
               per dashboard, piattaforme web
               e prodotti digitali. Supporto
               sia nella creazione da zero che
-              nel miglioramento grafico e
-              strutturale di prodotti esistenti.
+              nell'ottimizzazione di prodotti
+              esistenti.
             </p>
 
           </article>
@@ -72,15 +70,15 @@ function Services() {
 
             <h3>
               SEO, Contenuti &
-              Personal Branding
+              Comunicazione Web
             </h3>
 
-            <p>
-              Supporto nella scrittura contenuti,
-              SEO on-page e costruzione di
-              un’identità digitale coerente e
-              professionale per attività,
-              professionisti e progetti online.
+            <p className="price-description">
+              Supporto nella scrittura dei contenuti,
+              nell'ottimizzazione SEO on-page e
+              nell'organizzazione delle informazioni,
+              per rendere siti e prodotti digitali
+              più chiari, intuitivi ed efficaci.
             </p>
 
           </article>

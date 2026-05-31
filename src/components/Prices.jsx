@@ -36,6 +36,12 @@ function Prices() {
               Siti Web & Presenza Online
             </h3>
 
+            <p className="price-description">
+              Siti web progettati per presentare servizi,
+              attività e competenze in modo chiaro,
+              professionale ed efficace.
+            </p>
+
             <div className="price-item">
 
               <h4>
@@ -51,7 +57,7 @@ function Prices() {
             <div className="price-item">
 
               <h4>
-                Siti Web Professionali
+                Siti Multipagina
               </h4>
 
               <span>
@@ -68,15 +74,15 @@ function Prices() {
               Front-End & Prodotti Digitali
             </h3>
 
-            <p>
-              Preventivo personalizzato
+            <p className="price-description">
+              Sviluppo front-end per dashboard,
+              piattaforme web e prodotti digitali,
+              sia in fase di realizzazione che
+              su progetti già esistenti.
             </p>
 
-            <p className="price-description">
-              Sviluppo e redesign di interfacce front-end,
-              dashboard, piattaforme web e prodotti digitali.
-              Disponibili anche collaborazioni continuative
-              e supporto su progetti esistenti.
+            <p className="custom-price">
+              Preventivo personalizzato
             </p>
 
           </div>
@@ -84,23 +90,19 @@ function Prices() {
           <div className="price-card">
 
             <h3>
-              SEO, Contenuti & Personal Branding
+              SEO, Contenuti & Comunicazione Web
             </h3>
 
-            <p>
+            <p className="price-description">
+              Supporto nella scrittura dei contenuti,
+              nell'ottimizzazione SEO e
+              nell'organizzazione delle informazioni
+              per migliorare chiarezza, visibilità
+              e organizzazione dei contenuti.
+            </p>
+
+            <p className="custom-price">
               Preventivo personalizzato
-            </p>
-
-            <p className="price-description">
-              Supporto nella scrittura contenuti,
-              SEO on-page e costruzione di un’identità
-              digitale coerente e professionale.
-            </p>
-
-            <p className="price-description">
-              Disponibile come servizio autonomo
-              oppure a supporto di siti web e
-              prodotti digitali.
             </p>
 
           </div>
@@ -114,7 +116,7 @@ function Prices() {
             redesign front-end o supporto su
             prodotti digitali esistenti,
             sono disponibili anche formule
-            orarie o giornaliere.
+            orarie, giornaliere o a progetto.
           </p>
 
         </div>

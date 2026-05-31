@@ -2,13 +2,7 @@
 
   padding: var(--section-padding);
 
-  background:
-    radial-gradient(
-      circle at bottom right,
-      rgba(139, 92, 246, 0.08),
-      transparent 30%
-    ),
-    var(--bg);
+  background: var(--bg);
 }
 
 .prices-header {
@@ -31,33 +25,32 @@
   grid-template-columns: repeat(3, 1fr);
 
   gap: 2rem;
+
+  align-items: stretch;
 }
 
 .price-card {
 
-  background: rgba(255, 255, 255, 0.82);
+  background: var(--card);
 
-  backdrop-filter: blur(12px);
-
-  border: 1px solid rgba(30, 30, 47, 0.12);
+  border: 3px solid var(--border);
 
   border-radius: 32px;
 
   padding: 2.5rem;
 
-  box-shadow:
-    0 20px 40px rgba(15, 23, 42, 0.05);
+  box-shadow: var(--shadow);
 
   transition: 0.3s ease;
+
+  display: flex;
+
+  flex-direction: column;
 }
 
 .price-card:hover {
 
-  transform: translateY(-4px);
-
-  box-shadow:
-    0 25px 60px rgba(15, 23, 42, 0.08),
-    0 10px 30px rgba(139, 92, 246, 0.06);
+  transform: translateY(-6px);
 }
 
 .price-card h3 {
@@ -70,14 +63,36 @@
 
   color: var(--text);
 
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.price-description {
+
+  font-size: 1rem;
+
+  line-height: 1.9;
+
+  color: var(--secondary);
+
+  margin-bottom: 2rem;
+}
+
+.custom-price {
+
+  margin-top: auto;
+
+  font-size: 1.5rem;
+
+  font-weight: 700;
+
+  color: var(--purple);
 }
 
 .price-item {
 
   padding: 1.4rem 0;
 
-  border-top: 1px solid rgba(30, 30, 47, 0.08);
+  border-top: 2px solid var(--border);
 
   display: flex;
 
@@ -113,46 +128,23 @@
   color: var(--purple);
 }
 
-.price-card > p:first-of-type {
-
-  font-size: 1.5rem;
-
-  font-weight: 700;
-
-  color: var(--purple);
-
-  margin-bottom: 1.5rem;
-}
-
-.price-description {
-
-  font-size: 0.98rem;
-
-  line-height: 1.9;
-
-  color: var(--secondary);
-
-  margin-bottom: 1rem;
-}
-
 .prices-note {
 
   max-width: 760px;
 
-  margin: 3rem auto 0;
+  margin: 4rem auto 0;
 
   padding: 2rem;
 
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--card);
 
-  border: 1px solid rgba(30, 30, 47, 0.08);
+  border: 3px solid var(--border);
 
   border-radius: 24px;
 
   text-align: center;
 
-  box-shadow:
-    0 10px 30px rgba(15, 23, 42, 0.03);
+  box-shadow: var(--shadow);
 }
 
 .prices-note p {
@@ -196,7 +188,7 @@
     font-size: 1.8rem;
   }
 
-  .price-card > p:first-of-type {
+  .custom-price {
 
     font-size: 1.35rem;
   }

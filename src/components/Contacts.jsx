@@ -51,7 +51,7 @@ function Contacts() {
 
             <p>
               Oppure vuoi migliorare il sito della tua attività
-              o costruire una presenza online più chiara e coerente?
+              o costruire una presenza online più riconoscibile e professionale?
             </p>
 
             <p>

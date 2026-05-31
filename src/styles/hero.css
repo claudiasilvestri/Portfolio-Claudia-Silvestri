@@ -7,15 +7,10 @@
   align-items: center;
 
   padding-top: 140px;
+
   padding-bottom: 100px;
 
-  background:
-    radial-gradient(
-      circle at top right,
-      rgba(139, 92, 246, 0.08),
-      transparent 35%
-    ),
-    var(--bg);
+  background: var(--bg);
 }
 
 .hero-content {
@@ -139,56 +134,35 @@
 
 .secondary-btn {
 
-  background: white;
+  background: var(--card);
 
   color: var(--text);
 
-  border: 1px solid rgba(30, 30, 47, 0.12);
+  border: 2px solid var(--border);
 }
 
 .secondary-btn:hover {
 
-  border-color: rgba(139, 92, 246, 0.3);
+  border-color: var(--purple);
 
   color: var(--purple);
 }
 
 .hero-visual {
 
-  position: relative;
-
   display: flex;
 
   justify-content: center;
 
   align-items: center;
-
-  transform: translateY(-20px);
 }
 
 .visual-glow {
 
-  position: absolute;
-
-  width: 320px;
-  height: 320px;
-
-  background: rgba(139, 92, 246, 0.14);
-
-  filter: blur(90px);
-
-  border-radius: 50%;
-
-  z-index: 0;
-
-  animation: pulseGlow 7s ease-in-out infinite;
+  display: none;
 }
 
 .skills-card {
-
-  position: relative;
-
-  z-index: 1;
 
   width: 100%;
 
@@ -198,23 +172,17 @@
 
   border-radius: 32px;
 
-  background: rgba(255, 255, 255, 0.75);
+  background: var(--card);
 
-  backdrop-filter: blur(18px);
+  border: 3px solid var(--border);
 
-  border: 1px solid rgba(30, 30, 47, 0.1);
-
-  box-shadow:
-    0 20px 50px rgba(15, 23, 42, 0.06),
-    0 10px 30px rgba(139, 92, 246, 0.08);
+  box-shadow: var(--shadow);
 
   display: flex;
 
   flex-wrap: wrap;
 
   gap: 1rem;
-
-  animation: floatCard 6s ease-in-out infinite;
 }
 
 .skill-pill {
@@ -223,9 +191,9 @@
 
   border-radius: 999px;
 
-  background: rgba(139, 92, 246, 0.08);
+  background: #ffffff;
 
-  border: 1px solid rgba(139, 92, 246, 0.12);
+  border: 2px solid var(--border);
 
   color: var(--text);
 
@@ -238,42 +206,11 @@
 
 .skill-pill:hover {
 
+  border-color: var(--purple);
+
+  color: var(--purple);
+
   transform: translateY(-2px);
-
-  background: rgba(139, 92, 246, 0.12);
-}
-
-@keyframes floatCard {
-
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-@keyframes pulseGlow {
-
-  0% {
-    opacity: 0.5;
-    transform: scale(1);
-  }
-
-  50% {
-    opacity: 0.8;
-    transform: scale(1.08);
-  }
-
-  100% {
-    opacity: 0.5;
-    transform: scale(1);
-  }
 }
 
 @media (max-width: 980px) {
@@ -309,11 +246,6 @@
 
     font-size: clamp(2.8rem, 11vw, 4.2rem);
   }
-
-  .hero-visual {
-
-    transform: translateY(0);
-  }
 }
 
 @media (max-width: 600px) {
@@ -323,6 +255,7 @@
     min-height: auto;
 
     padding-top: 190px;
+
     padding-bottom: 80px;
 
     text-align: center;
@@ -378,17 +311,6 @@
   .secondary-btn {
 
     width: 100%;
-  }
-
-  .hero-visual {
-
-    transform: none;
-  }
-
-  .visual-glow {
-
-    width: 220px;
-    height: 220px;
   }
 
   .skills-card {

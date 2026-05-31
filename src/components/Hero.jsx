@@ -19,8 +19,8 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-            Front-end, branding e identità digitali
-            per progetti moderni e riconoscibili.
+            Front-End, prodotti digitali e presenza online
+            progettati per essere chiari, intuitivi e riconoscibili.
           </p>
 
           <div className="hero-buttons">
@@ -49,16 +49,20 @@ function Hero() {
 
           <div className="skills-card">
 
-            <span className="skill-pill">Front-End</span>
+            <span className="skill-pill">
+              Front-End
+            </span>
 
-            <span className="skill-pill">React</span>
+            <span className="skill-pill">
+              React
+            </span>
 
             <span className="skill-pill">
               Creative Development
             </span>
 
             <span className="skill-pill">
-              Brand Identity
+              Content & Communication
             </span>
 
             <span className="skill-pill">

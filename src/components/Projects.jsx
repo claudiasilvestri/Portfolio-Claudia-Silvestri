@@ -13,15 +13,16 @@ function Projects() {
             PROGETTI
           </p>
 
-          <h2 className="section-title">
-            Alcuni progetti sviluppati tra prodotti digitali,
-            piattaforme web e siti professionali.
-          </h2>
+        <h2 className="section-title">
+         Progetti in cui codice, contenuti e comunicazione
+         lavorano nella stessa direzione.
+        </h2>
 
-          <p className="section-text">
-            Interfacce front-end, prodotti web e identità digitali
-            progettate per essere moderne, responsive e riconoscibili.
-          </p>
+         <p className="section-text">
+          Prodotti digitali, piattaforme web e siti professionali
+          progettati per comunicare in modo chiaro e offrire
+          un'esperienza semplice e intuitiva.
+        </p>
         </div>
 
         <div className="projects-wrapper">
@@ -50,7 +51,7 @@ function Projects() {
 
               <div className="project-tags">
                 <span>Front-End</span>
-                <span>UX</span>
+                <span>Product Design</span>
                 <span>Product Thinking</span>
               </div>
 

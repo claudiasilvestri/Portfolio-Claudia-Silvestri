@@ -10,11 +10,11 @@ html {
 
 :root {
 
-  --bg: #f7f7fb;
+  --bg: #ffffff;
 
-  --card: #ffffff;
+  --card: #f3ede4;
 
-  --footer-bg: #f1f1f7;
+  --footer-bg: #1b1230;
 
   --purple: #8b5cf6;
 
@@ -24,13 +24,16 @@ html {
 
   --secondary: #4f5568;
 
-  --border: rgba(23, 23, 43, 0.12);
+  --border: #c4b49a;
 
-  --shadow: 0 18px 40px rgba(15, 23, 42, 0.05);
+  --shadow:
+    0 0 0 2px rgba(255, 255, 255, 0.95),
+    0 0 0 5px rgba(196, 180, 154, 0.45),
+    0 18px 40px rgba(15, 23, 42, 0.06);
 
   --radius: 24px;
 
-  --section-padding: 8rem 0;
+  --section-padding: 6rem 0;
 }
 
 body {
@@ -46,6 +49,16 @@ body {
   line-height: 1.6;
 
   -webkit-font-smoothing: antialiased;
+}
+
+section {
+
+  border-bottom: 3px solid var(--border);
+}
+
+.contact-section {
+
+  border-bottom: none;
 }
 
 a {
@@ -107,7 +120,7 @@ img {
 
   line-height: 1.85;
 
-  color: #43485a;
+  color: var(--secondary);
 
   font-weight: 500;
 
@@ -118,7 +131,7 @@ img {
 
   background: var(--card);
 
-  border: 1.5px solid var(--border);
+  border: 3px solid var(--border);
 
   border-radius: var(--radius);
 
@@ -165,9 +178,9 @@ img {
 
   border-radius: 16px;
 
-  border: 1.5px solid var(--border);
+  border: 2px solid var(--border);
 
-  background: white;
+  background: var(--card);
 
   color: var(--text);
 
@@ -178,7 +191,7 @@ img {
 
 .secondary-btn:hover {
 
-  border-color: rgba(139, 92, 246, 0.3);
+  border-color: var(--purple);
 
   color: var(--purple);
 }
@@ -187,7 +200,7 @@ img {
 
   :root {
 
-    --section-padding: 6rem 0;
+    --section-padding: 4rem 0;
   }
 
   .section-label {
