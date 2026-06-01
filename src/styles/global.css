@@ -213,6 +213,10 @@ img {
   .section-title {
 
     font-size: clamp(1.8rem, 7vw, 2.5rem);
+
+    line-height: 1.12;
+
+    letter-spacing: -1px;
   }
 
   .section-text {

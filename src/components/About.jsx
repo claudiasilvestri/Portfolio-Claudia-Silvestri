@@ -60,14 +60,15 @@ function About() {
             </p>
 
             <p>
-              Per questo non considero il mio passaggio al front-end
-              una rottura con ciò che ero prima, ma un'evoluzione
-              naturale del mio percorso.
+              Per questo non considero il mio passaggio al
+              <strong> front-end</strong> una rottura con ciò che ero prima,
+              ma un'<strong>evoluzione naturale</strong> del mio percorso.
             </p>
 
             <p>
               Le parole non sono scomparse.
-              Si sono semplicemente unite a nuovi strumenti.
+              Si sono semplicemente unite a
+              <strong> nuovi strumenti</strong>.
             </p>
 
           </div>
@@ -103,7 +104,7 @@ function About() {
             </p>
 
             <p>
-              La stessa cura che applico al <strong>codice</strong>
+              La stessa cura che applico al <strong>codice</strong>,
               la applico anche alle <strong>parole</strong>,
               alla <strong>struttura</strong> e alle
               <strong> scelte progettuali</strong>.
@@ -139,13 +140,15 @@ function About() {
               <strong> contenuti</strong> e
               <strong> comunicazione</strong> non sono aspetti
               separati del lavoro: contribuiscono tutti allo stesso
-              obiettivo.
+              <strong> obiettivo</strong>.
             </p>
 
             <p>
-              Aiutare persone, professionisti e progetti a farsi
-              vedere per quello che sono, non soltanto per quello
-              che offrono.
+              Aiutare <strong>professionisti</strong>,
+              <strong> attività</strong> e
+              <strong> aziende</strong> a farsi vedere per
+              <strong> quello che sono</strong>, non soltanto per
+              <strong> quello che offrono</strong>.
             </p>
 
           </div>
@@ -170,8 +173,8 @@ function About() {
             </li>
 
             <li>
-              <strong>Web & Content Editor</strong> presso
-              Comingsoon.it e Cinematographe.it
+              <strong>Web & Content Editor</strong> presso{" "}
+              <em>ComingSoon.it</em> e <em>Cinematographe.it</em>
             </li>
 
             <li>

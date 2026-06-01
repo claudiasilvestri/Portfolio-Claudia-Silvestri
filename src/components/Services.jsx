@@ -15,13 +15,15 @@ function Services() {
           </p>
 
           <h2 className="section-title">
-            Front-End, presenza digitale
-            e prodotti digitali.
+            Front-End, siti web e{" "}
+            <span style={{ whiteSpace: "nowrap" }}>
+              prodotti digitali
+            </span>.
           </h2>
 
           <p className="section-text">
-            Supporto front-end e digitale per
-            professionisti, attività e prodotti online.
+            Supporto per professionisti,
+            attività e progetti.
           </p>
 
         </div>
@@ -60,7 +62,7 @@ function Services() {
               per dashboard, piattaforme web
               e prodotti digitali. Supporto
               sia nella creazione da zero che
-              nell'ottimizzazione di prodotti
+              nell'ottimizzazione di realtà già
               esistenti.
             </p>
 
@@ -73,11 +75,11 @@ function Services() {
               Comunicazione Web
             </h3>
 
-            <p className="price-description">
+            <p>
               Supporto nella scrittura dei contenuti,
               nell'ottimizzazione SEO on-page e
               nell'organizzazione delle informazioni,
-              per rendere siti e prodotti digitali
+              per rendere siti e progetti
               più chiari, intuitivi ed efficaci.
             </p>
 

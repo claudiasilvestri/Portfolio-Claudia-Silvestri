@@ -36,12 +36,6 @@ function Prices() {
               Siti Web & Presenza Online
             </h3>
 
-            <p className="price-description">
-              Siti web progettati per presentare servizi,
-              attività e competenze in modo chiaro,
-              professionale ed efficace.
-            </p>
-
             <div className="price-item">
 
               <h4>
@@ -74,13 +68,6 @@ function Prices() {
               Front-End & Prodotti Digitali
             </h3>
 
-            <p className="price-description">
-              Sviluppo front-end per dashboard,
-              piattaforme web e prodotti digitali,
-              sia in fase di realizzazione che
-              su progetti già esistenti.
-            </p>
-
             <p className="custom-price">
               Preventivo personalizzato
             </p>
@@ -92,14 +79,6 @@ function Prices() {
             <h3>
               SEO, Contenuti & Comunicazione Web
             </h3>
-
-            <p className="price-description">
-              Supporto nella scrittura dei contenuti,
-              nell'ottimizzazione SEO e
-              nell'organizzazione delle informazioni
-              per migliorare chiarezza, visibilità
-              e organizzazione dei contenuti.
-            </p>
 
             <p className="custom-price">
               Preventivo personalizzato

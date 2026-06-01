@@ -10,6 +10,12 @@
   max-width: 900px;
 
   margin: 0 auto 5rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1.5rem;
 }
 
 .about-content {
@@ -168,6 +174,8 @@
   .about-header {
 
     margin-bottom: 4rem;
+
+    gap: 1.25rem;
   }
 
   .about-block,

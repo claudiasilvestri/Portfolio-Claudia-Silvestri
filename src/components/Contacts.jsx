@@ -168,17 +168,15 @@ function Contacts() {
               onChange={(e) => setMessage(e.target.value)}
             />
 
-            <p
-              className={`form-note ${
-                messageValid
-                  ? "success"
-                  : "warning"
-              }`}
-            >
-              {messageValid
-                ? "✓ Messaggio pronto per l'invio"
-                : `${message.length}/50 caratteri • ${wordCount}/5 parole`}
-            </p>
+            {formValid ? (
+              <p className="form-note success">
+                ✓ Messaggio pronto per l'invio
+              </p>
+            ) : (
+              <p className="form-note warning">
+                {message.length}/50 caratteri • {wordCount}/5 parole
+              </p>
+            )}
 
             <button
               type="submit"

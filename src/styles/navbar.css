@@ -159,6 +159,8 @@
   .logo {
 
     font-size: 1.8rem;
+
+    letter-spacing: -1.5px;
   }
 
   .hamburger {
@@ -243,6 +245,8 @@
   .logo {
 
     font-size: 1.55rem;
+
+    letter-spacing: -1px;
   }
 
   .hamburger {

@@ -7,27 +7,34 @@ import lawfirmImg from "../screen-projects/lawfirm.png";
 function Projects() {
   return (
     <section className="projects-section" id="projects">
+
       <div className="container">
+
         <div className="projects-header">
+
           <p className="section-label">
             PROGETTI
           </p>
 
-        <h2 className="section-title">
-         Progetti in cui codice, contenuti e comunicazione
-         lavorano nella stessa direzione.
-        </h2>
+          <h2 className="section-title">
+            Progetti in cui codice e contenuti
+            lavorano nella stessa direzione.
+          </h2>
 
-         <p className="section-text">
-          Prodotti digitali, piattaforme web e siti professionali
-          progettati per comunicare in modo chiaro e offrire
-          un'esperienza semplice e intuitiva.
-        </p>
+          <p className="section-text">
+            Prodotti digitali, piattaforme web e siti professionali
+            progettati per comunicare in modo chiaro e offrire
+            un'esperienza semplice e intuitiva.
+          </p>
+
         </div>
 
         <div className="projects-wrapper">
+
           <article className="project-card">
+
             <div className="project-content">
+
               <p className="project-category">
                 PRODUCT PLATFORM
               </p>
@@ -50,12 +57,17 @@ function Projects() {
               </p>
 
               <div className="project-tags">
+
                 <span>Front-End</span>
+
                 <span>Product Design</span>
+
                 <span>Product Thinking</span>
+
               </div>
 
               <div className="project-buttons">
+
                 <a
                   href="https://github.com/claudiasilvestri/CoreStack"
                   target="_blank"
@@ -64,20 +76,27 @@ function Projects() {
                 >
                   GitHub
                 </a>
+
               </div>
+
             </div>
 
             <div className="project-image-wrapper">
+
               <img
                 src={corestackImg}
-                alt="CoreStack project"
+                alt="Anteprima della piattaforma CoreStack"
                 className="project-image"
               />
+
             </div>
+
           </article>
 
           <article className="project-card">
+
             <div className="project-content">
+
               <p className="project-category">
                 WEB APPLICATION
               </p>
@@ -96,12 +115,17 @@ function Projects() {
               </p>
 
               <div className="project-tags">
-                <span>API Integration</span>
+
+                <span>API REST</span>
+
                 <span>Responsive UI</span>
+
                 <span>State Management</span>
+
               </div>
 
               <div className="project-buttons">
+
                 <a
                   href="https://gameverse-live.vercel.app/"
                   target="_blank"
@@ -119,20 +143,27 @@ function Projects() {
                 >
                   GitHub
                 </a>
+
               </div>
+
             </div>
 
             <div className="project-image-wrapper">
+
               <img
                 src={gameverseImg}
-                alt="GameVerse project"
+                alt="Anteprima dell'applicazione web GameVerse"
                 className="project-image"
               />
+
             </div>
+
           </article>
 
           <article className="project-card">
+
             <div className="project-content">
+
               <p className="project-category">
                 PROFESSIONAL WEBSITE
               </p>
@@ -146,18 +177,23 @@ function Projects() {
                 professionista del settore legale,
                 con focus su presenza online,
                 personal branding e chiarezza
-                comunicativa. Il progetto ha incluso
+                comunicativa. Il progetto include
                 struttura dei contenuti, responsive
                 design e ottimizzazione SEO.
               </p>
 
               <div className="project-tags">
+
                 <span>Personal Branding</span>
+
                 <span>SEO</span>
+
                 <span>Responsive Design</span>
+
               </div>
 
               <div className="project-buttons">
+
                 <a
                   href="https://www.federicadalessandroavvocato.it/"
                   target="_blank"
@@ -166,19 +202,27 @@ function Projects() {
                 >
                   Visita il sito
                 </a>
+
               </div>
+
             </div>
 
             <div className="project-image-wrapper">
+
               <img
                 src={lawfirmImg}
-                alt="Studio legale project"
+                alt="Anteprima del sito web dello Studio Legale Federica D'Alessandro"
                 className="project-image"
               />
+
             </div>
+
           </article>
+
         </div>
+
       </div>
+
     </section>
   );
 }
