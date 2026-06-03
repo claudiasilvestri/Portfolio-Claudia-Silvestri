@@ -134,7 +134,7 @@
 
 .secondary-btn {
 
-  background: var(--card);
+  background: var(--bg);
 
   color: var(--text);
 
@@ -146,6 +146,8 @@
   border-color: var(--purple);
 
   color: var(--purple);
+
+  transform: translateY(-2px);
 }
 
 .hero-visual {

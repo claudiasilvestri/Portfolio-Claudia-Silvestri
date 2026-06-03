@@ -194,14 +194,26 @@ function About() {
 
           </ul>
 
-          <a
-            href="/Claudia_Silvestri_CV_Frontend.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="cv-button"
-          >
-            Visualizza CV
-          </a>
+          <div className="cv-buttons">
+
+            <a
+              href="/Claudia_Silvestri_CV_Frontend.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="cv-button"
+            >
+              Visualizza CV
+            </a>
+
+            <a
+              href="/Claudia_Silvestri_CV_Frontend.pdf"
+              download
+              className="cv-button secondary"
+            >
+              Scarica CV
+            </a>
+
+          </div>
 
         </div>
 
