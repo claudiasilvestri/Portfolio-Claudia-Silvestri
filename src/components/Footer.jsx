@@ -17,6 +17,10 @@ function Footer() {
             Front-End Developer Freelance
           </p>
 
+          <p className="footer-vat">
+            P. IVA 09187270724
+          </p>
+
           <div className="footer-links">
 
             <a
@@ -35,6 +39,26 @@ function Footer() {
               aria-label="GitHub"
             >
               <FaGithub />
+            </a>
+
+          </div>
+
+          <div className="footer-policies">
+
+            <a
+              href="https://www.iubenda.com/privacy-policy/45689609"
+              className="iubenda-white iubenda-noiframe iubenda-embed"
+              title="Privacy Policy"
+            >
+              Privacy Policy
+            </a>
+
+            <a
+              href="https://www.iubenda.com/privacy-policy/45689609/cookie-policy"
+              className="iubenda-white iubenda-noiframe iubenda-embed"
+              title="Cookie Policy"
+            >
+              Cookie Policy
             </a>
 
           </div>
