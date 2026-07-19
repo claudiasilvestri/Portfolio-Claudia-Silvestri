@@ -1,6 +1,6 @@
 import "../styles/projects.css";
 
-import corestackImg from "../screen-projects/corestack.png";
+import naxosImg from "../screen-projects/naxos.png";
 import gameverseImg from "../screen-projects/gameverse.png";
 import lawfirmImg from "../screen-projects/lawfirm.png";
 
@@ -40,7 +40,7 @@ function Projects() {
               </p>
 
               <h3>
-                CoreStack
+               Naxos
               </h3>
 
               <p>
@@ -69,7 +69,7 @@ function Projects() {
               <div className="project-buttons">
 
                 <a
-                  href="https://github.com/claudiasilvestri/CoreStack"
+                  href="https://github.com/claudiasilvestri/Naxos"
                   target="_blank"
                   rel="noreferrer"
                   className="project-btn"
@@ -84,8 +84,8 @@ function Projects() {
             <div className="project-image-wrapper">
 
               <img
-                src={corestackImg}
-                alt="Anteprima della piattaforma CoreStack"
+              src={naxosImg}
+                  alt="Anteprima della piattaforma Naxos"
                 className="project-image"
               />
 
