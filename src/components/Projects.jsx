@@ -40,20 +40,18 @@ function Projects() {
               </p>
 
               <h3>
-               Naxos
+                Naxos
               </h3>
 
               <p>
-                Piattaforma in produzione ideata per rendere
-                la valutazione tecnica dei developer
-                più pratica, meritocratica e vicina
-                alle esigenze reali del mercato tech.
-
-                Il progetto unisce challenge realistiche,
-                matching tra aziende e candidati basato
-                sulle competenze e una struttura front-end
-                progettata per essere chiara, leggibile
-                e intuitiva.
+                Piattaforma digitale che mette in contatto
+                developer e startup attraverso profili
+                professionali e challenge tecniche. La
+                selezione parte dalle competenze e mantiene
+                anonima l’identità del developer nella fase
+                iniziale, per concentrarsi sull’esperienza
+                e sulle capacità dimostrate. Il progetto
+                combina sviluppo front-end, UX e product thinking.
               </p>
 
               <div className="project-tags">
@@ -69,10 +67,19 @@ function Projects() {
               <div className="project-buttons">
 
                 <a
-                  href="https://github.com/claudiasilvestri/Naxos"
+                  href="https://www.naxosapp.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="project-btn"
+                >
+                  Visita il sito
+                </a>
+
+                <a
+                  href="https://github.com/claudiasilvestri/Naxos"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-btn secondary-project-btn"
                 >
                   GitHub
                 </a>
@@ -84,8 +91,8 @@ function Projects() {
             <div className="project-image-wrapper">
 
               <img
-              src={naxosImg}
-                  alt="Anteprima della piattaforma Naxos"
+                src={naxosImg}
+                alt="Anteprima della piattaforma Naxos"
                 className="project-image"
               />
 
@@ -132,7 +139,7 @@ function Projects() {
                   rel="noreferrer"
                   className="project-btn"
                 >
-                  Live
+                  Visita il sito
                 </a>
 
                 <a
