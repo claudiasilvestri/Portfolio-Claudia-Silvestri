@@ -1,3 +1,4 @@
+
 import "../styles/about.css";
 
 function About() {
@@ -197,7 +198,7 @@ function About() {
           <div className="cv-buttons">
 
             <a
-              href="/Claudia_Silvestri_CV_Frontend.pdf"
+              href="/Claudia_Silvestri_CV.pdf"
               target="_blank"
               rel="noreferrer"
               className="cv-button"
@@ -206,7 +207,7 @@ function About() {
             </a>
 
             <a
-              href="/Claudia_Silvestri_CV_Frontend.pdf"
+              href="/Claudia_Silvestri_CV.pdf"
               download
               className="cv-button secondary"
             >
