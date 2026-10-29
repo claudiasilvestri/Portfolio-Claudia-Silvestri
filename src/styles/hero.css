@@ -1,333 +1,266 @@
+
 .hero {
-
   min-height: 100vh;
-
   display: flex;
-
   align-items: center;
-
   padding-top: 140px;
-
   padding-bottom: 100px;
-
   background: var(--bg);
 }
 
 .hero-content {
-
   width: 90%;
-
   max-width: 1200px;
-
   margin: auto;
-
   display: grid;
-
   grid-template-columns: 1.1fr 0.9fr;
-
   align-items: center;
-
   gap: 6rem;
 }
 
 .hero-text {
-
   display: flex;
-
   flex-direction: column;
-
   gap: 2rem;
 }
 
 .hero-tag {
-
   font-size: 1.05rem;
-
   font-weight: 700;
-
   letter-spacing: 1px;
-
   text-transform: uppercase;
-
   color: var(--text);
-
   opacity: 0.72;
 }
 
 .hero-text h1 {
-
   font-size: clamp(3rem, 5.5vw, 4.6rem);
-
   line-height: 0.95;
-
   font-weight: 800;
-
   letter-spacing: -4px;
-
   color: var(--text);
-
   max-width: 720px;
 }
 
 .hero-text h1 span {
-
   color: var(--purple);
 }
 
 .hero-description {
-
   font-size: 1.18rem;
-
   line-height: 1.8;
-
   color: var(--secondary);
-
   max-width: 620px;
 }
 
 .hero-buttons {
-
   display: flex;
-
   align-items: center;
-
   gap: 1rem;
-
   margin-top: 0.5rem;
 }
 
 .primary-btn,
 .secondary-btn {
-
   padding: 1rem 2rem;
-
   border-radius: 18px;
-
   font-weight: 700;
-
   font-size: 1rem;
-
   transition: 0.2s ease;
-
   display: inline-flex;
-
   align-items: center;
-
   justify-content: center;
 }
 
 .primary-btn {
-
   background: var(--purple);
-
   color: white;
-
   border: 1px solid transparent;
 }
 
 .primary-btn:hover {
-
   background: var(--purple-hover);
-
   transform: translateY(-2px);
 }
 
 .secondary-btn {
-
   background: var(--bg);
-
   color: var(--text);
-
   border: 2px solid var(--border);
 }
 
 .secondary-btn:hover {
-
   border-color: var(--purple);
-
   color: var(--purple);
-
   transform: translateY(-2px);
 }
 
 .hero-visual {
-
   display: flex;
-
   justify-content: center;
-
   align-items: center;
 }
 
 .visual-glow {
-
   display: none;
 }
 
 .skills-card {
-
   width: 100%;
-
   max-width: 470px;
-
   padding: 2.5rem;
-
+  box-sizing: border-box;
   border-radius: 32px;
-
   background: var(--card);
-
   border: 3px solid var(--border);
-
   box-shadow: var(--shadow);
 
-  display: flex;
-
-  flex-wrap: wrap;
-
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+  align-content: center;
 }
 
 .skill-pill {
+  min-width: 0;
+  min-height: 58px;
+  box-sizing: border-box;
+  padding: 0.85rem 0.75rem;
 
-  padding: 1rem 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
 
   border-radius: 999px;
-
   background: #ffffff;
-
   border: 2px solid var(--border);
-
   color: var(--text);
-
-  font-size: 0.96rem;
-
+  font-size: 0.92rem;
   font-weight: 600;
-
   transition: 0.2s ease;
 }
 
 .skill-pill:hover {
-
   border-color: var(--purple);
-
   color: var(--purple);
-
   transform: translateY(-2px);
 }
 
+@media (max-width: 1100px) {
+  .hero-content {
+    gap: 3rem;
+  }
+
+  .skills-card {
+    padding: 1.75rem;
+    gap: 0.75rem;
+  }
+
+  .skill-pill {
+    font-size: 0.85rem;
+    padding: 0.8rem 0.5rem;
+  }
+}
+
 @media (max-width: 980px) {
-
   .hero {
-
     text-align: center;
   }
 
   .hero-content {
-
     grid-template-columns: 1fr;
-
     gap: 4rem;
   }
 
   .hero-text {
-
     align-items: center;
   }
 
   .hero-buttons {
-
     justify-content: center;
   }
 
   .skills-card {
+    max-width: 470px;
+    padding: 2rem;
+    gap: 1rem;
+  }
 
-    justify-content: center;
+  .skill-pill {
+    font-size: 0.92rem;
+    padding: 0.85rem 0.75rem;
   }
 
   .hero-text h1 {
-
     font-size: clamp(2.8rem, 11vw, 4.2rem);
   }
 }
 
 @media (max-width: 600px) {
-
   .hero {
-
     min-height: auto;
-
     padding-top: 190px;
-
     padding-bottom: 80px;
-
     text-align: center;
   }
 
   .hero-content {
-
     grid-template-columns: 1fr;
-
     gap: 3rem;
   }
 
   .hero-text {
-
     align-items: center;
-
     gap: 1.5rem;
   }
 
   .hero-tag {
-
     font-size: 0.9rem;
-
-    line-height: 1.4;
+    line-height: 1.5;
   }
 
   .hero-text h1 {
-
     font-size: clamp(2.6rem, 12vw, 4rem);
-
     line-height: 1;
-
     letter-spacing: -2px;
   }
 
   .hero-description {
-
     font-size: 1rem;
-
     line-height: 1.8;
   }
 
   .hero-buttons {
-
     width: 100%;
-
     flex-direction: column;
-
     gap: 1rem;
   }
 
   .primary-btn,
   .secondary-btn {
-
     width: 100%;
+    box-sizing: border-box;
   }
 
   .skills-card {
-
-    padding: 2rem;
-
-    justify-content: center;
-
+    padding: 1.25rem;
+    gap: 0.75rem;
     max-width: 100%;
   }
 
   .skill-pill {
+    min-height: 54px;
+    font-size: 0.82rem;
+    padding: 0.75rem 0.4rem;
+  }
+}
 
-    font-size: 0.9rem;
-
-    padding: 0.9rem 1.2rem;
+@media (max-width: 360px) {
+  .skills-card {
+    grid-template-columns: 1fr;
   }
 }

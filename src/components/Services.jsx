@@ -1,3 +1,4 @@
+
 import "../styles/services.css";
 
 function Services() {
@@ -7,9 +8,7 @@ function Services() {
       id="services"
     >
       <div className="container">
-
         <div className="services-header">
-
           <p className="section-label">
             SERVIZI
           </p>
@@ -25,13 +24,10 @@ function Services() {
             Supporto per professionisti,
             attività e progetti.
           </p>
-
         </div>
 
         <div className="services-grid">
-
           <article className="service-card">
-
             <h3>
               Siti Web &
               Presenza Online
@@ -46,11 +42,9 @@ function Services() {
               dei contenuti e nell'organizzazione
               della comunicazione web.
             </p>
-
           </article>
 
           <article className="service-card featured-card">
-
             <h3>
               Front-End &
               Prodotti Digitali
@@ -65,11 +59,9 @@ function Services() {
               nell'ottimizzazione di realtà già
               esistenti.
             </p>
-
           </article>
 
           <article className="service-card">
-
             <h3>
               SEO, Contenuti &
               Comunicazione Web
@@ -79,16 +71,12 @@ function Services() {
               Supporto nella scrittura dei contenuti,
               nell'ottimizzazione SEO on-page e
               nell'organizzazione delle informazioni,
-              per rendere siti e progetti
-              più chiari, intuitivi ed efficaci.
+              per migliorare la visibilità online
+              e rendere i contenuti più chiari e accessibili.
             </p>
-
           </article>
-
         </div>
-
       </div>
-
     </section>
   );
 }

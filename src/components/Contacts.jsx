@@ -1,9 +1,9 @@
+
 import { useState } from "react";
 import "../styles/contact.css";
 import profileImg from "../assets/profile.png";
 
 function Contacts() {
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -30,11 +30,8 @@ function Contacts() {
 
   return (
     <section className="contact-section" id="contact">
-
       <div className="container">
-
         <div className="contact-header">
-
           <p className="section-label">
             CONTATTI
           </p>
@@ -44,7 +41,6 @@ function Contacts() {
           </h2>
 
           <div className="contact-description">
-
             <p>
               Hai un'idea che non sai come concretizzare?
             </p>
@@ -58,15 +54,11 @@ function Contacts() {
               Scrivimi e raccontami il tuo progetto:
               sarò felice di aiutarti.
             </p>
-
           </div>
-
         </div>
 
         <div className="contact-grid">
-
           <div className="contact-card">
-
             <img
               src={profileImg}
               alt="Claudia Silvestri"
@@ -78,7 +70,7 @@ function Contacts() {
             </h3>
 
             <p className="contact-role">
-              Front-End Developer
+              Front-End Developer · UX/UI & Digital Content
             </p>
 
             <p className="contact-location">
@@ -86,7 +78,6 @@ function Contacts() {
             </p>
 
             <div className="contact-links">
-
               <a href="mailto:claudiasilvestri.dev@gmail.com">
                 📧 claudiasilvestri.dev@gmail.com
               </a>
@@ -106,9 +97,7 @@ function Contacts() {
               >
                 💼 LinkedIn
               </a>
-
             </div>
-
           </div>
 
           <form
@@ -117,7 +106,6 @@ function Contacts() {
             method="POST"
             noValidate
           >
-
             <input
               type="hidden"
               name="_subject"
@@ -184,13 +172,9 @@ function Contacts() {
             >
               Invia messaggio
             </button>
-
           </form>
-
         </div>
-
       </div>
-
     </section>
   );
 }

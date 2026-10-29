@@ -1,3 +1,4 @@
+
 import "../styles/prices.css";
 
 function Prices() {
@@ -6,11 +7,8 @@ function Prices() {
       className="prices-section"
       id="prices"
     >
-
       <div className="container">
-
         <div className="prices-header">
-
           <p className="section-label">
             PREZZI
           </p>
@@ -25,19 +23,15 @@ function Prices() {
             attività e progetti digitali. Ogni collaborazione
             viene definita in base alle esigenze specifiche.
           </p>
-
         </div>
 
         <div className="prices-grid">
-
           <div className="price-card">
-
             <h3>
               Siti Web & Presenza Online
             </h3>
 
             <div className="price-item">
-
               <h4>
                 Landing Page & One Page
               </h4>
@@ -45,11 +39,9 @@ function Prices() {
               <span>
                 Da 400€
               </span>
-
             </div>
 
             <div className="price-item">
-
               <h4>
                 Siti Multipagina
               </h4>
@@ -57,13 +49,10 @@ function Prices() {
               <span>
                 Da 650€
               </span>
-
             </div>
-
           </div>
 
           <div className="price-card">
-
             <h3>
               Front-End & Prodotti Digitali
             </h3>
@@ -71,11 +60,9 @@ function Prices() {
             <p className="custom-price">
               Preventivo personalizzato
             </p>
-
           </div>
 
           <div className="price-card">
-
             <h3>
               SEO, Contenuti & Comunicazione Web
             </h3>
@@ -83,25 +70,19 @@ function Prices() {
             <p className="custom-price">
               Preventivo personalizzato
             </p>
-
           </div>
-
         </div>
 
         <div className="prices-note">
-
           <p>
             Per collaborazioni continuative,
             redesign front-end o supporto su
             prodotti digitali esistenti,
-            sono disponibili anche formule
-            orarie, giornaliere o a progetto.
+            sono disponibili anche collaborazioni
+            a ore, a giornata o a progetto.
           </p>
-
         </div>
-
       </div>
-
     </section>
   );
 }

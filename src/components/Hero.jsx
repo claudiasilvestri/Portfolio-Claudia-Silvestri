@@ -1,15 +1,13 @@
+
 import "../styles/hero.css";
 
 function Hero() {
   return (
     <section className="hero">
-
       <div className="container hero-content">
-
         <div className="hero-text">
-
           <div className="hero-tag">
-            FRONT-END DEVELOPER & CREATIVE BUILDER
+            FRONT-END DEVELOPER · UX/UI & DIGITAL CONTENT
           </div>
 
           <h1>
@@ -19,66 +17,53 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-            Front-End, prodotti digitali e presenza online
-            progettati per essere chiari, intuitivi e riconoscibili.
+            Ogni progetto ha qualcosa da raccontare. Io mi occupo
+            di trasformare idee, esigenze e contenuti in siti web
+            e prodotti digitali capaci di dare loro forma e spazio
+            online.
           </p>
 
           <div className="hero-buttons">
-
-            <a
-              href="#projects"
-              className="primary-btn"
-            >
+            <a href="#projects" className="primary-btn">
               Vedi Progetti
             </a>
 
-            <a
-              href="#contact"
-              className="secondary-btn"
-            >
+            <a href="#contact" className="secondary-btn">
               Contattami
             </a>
-
           </div>
-
         </div>
 
         <div className="hero-visual">
-
           <div className="visual-glow"></div>
 
           <div className="skills-card">
-
             <span className="skill-pill">
-              Front-End
+              Front-End Development
             </span>
 
             <span className="skill-pill">
-              React
+              UX/UI Design
             </span>
 
             <span className="skill-pill">
-              Creative Development
+              Progettazione digitale
             </span>
 
             <span className="skill-pill">
-              Content & Communication
+              Contenuti e comunicazione
             </span>
 
             <span className="skill-pill">
-              Digital Presence
+              SEO e visibilità online
             </span>
 
             <span className="skill-pill">
               Product Thinking
             </span>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
   );
 }
